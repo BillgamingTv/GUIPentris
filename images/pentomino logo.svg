@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="24"
+   height="24"
+   viewBox="0 0 24 24"
+   version="1.1"
+   id="svg19"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs23">
+    <linearGradient
+       id="linearGradient1113">
+      <stop
+         style="stop-color:#0083ff;stop-opacity:1;"
+         offset="0"
+         id="stop1111" />
+    </linearGradient>
+    <linearGradient
+       xlink:href="#linearGradient1113"
+       id="linearGradient1115"
+       x1="17.859951"
+       y1="16.275185"
+       x2="21"
+       y2="16.275185"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <path
+     d="m 20.825553,17.859951 h -2.791155 a 0.17444717,0.17444717 0 0 0 -0.174447,0.174447 v 2.791155 A 0.17444717,0.17444717 0 0 0 18.034398,21 h 2.791155 A 0.17444717,0.17444717 0 0 0 21,20.825553 v -2.791155 a 0.17444717,0.17444717 0 0 0 -0.174447,-0.174447 z"
+     id="path17"
+     style="stroke-width:0.174447;fill:#00ff00" />
+  <path
+     d="m 20.825553,14.70516 h -2.791155 a 0.17444717,0.17444717 0 0 0 -0.174447,0.174447 v 2.791155 a 0.17444717,0.17444717 0 0 0 0.174447,0.174447 h 2.791155 A 0.17444717,0.17444717 0 0 0 21,17.670762 V 14.879607 A 0.17444717,0.17444717 0 0 0 20.825553,14.70516 Z"
+     id="path17-0"
+     style="fill:url(#linearGradient1115);stroke-width:3.17400031;fill-opacity:1;paint-order:markers stroke fill;stroke-dasharray:none" />
+  <path
+     d="m 17.670762,17.859951 h -2.791155 a 0.17444717,0.17444717 0 0 0 -0.174447,0.174447 v 2.791155 A 0.17444717,0.17444717 0 0 0 14.879607,21 h 2.791155 a 0.17444717,0.17444717 0 0 0 0.174447,-0.174447 v -2.791155 a 0.17444717,0.17444717 0 0 0 -0.174447,-0.174447 z"
+     id="path17-7"
+     style="stroke-width:0.174447;fill:#800000" />
+</svg>
