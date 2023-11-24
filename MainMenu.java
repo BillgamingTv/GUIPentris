@@ -78,6 +78,7 @@ public class MainMenu extends JFrame {
         ImageIcon img = new ImageIcon("images/pentomino_logo.png");
         setIconImage(img.getImage());
         welcomeLabel.setFont(new Font("Arial", Font.BOLD, 30));
+        setTitle("Pentris Main Menu");
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setResizable(false);
         pack();
