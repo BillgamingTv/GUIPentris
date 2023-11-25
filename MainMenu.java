@@ -5,8 +5,8 @@ import java.awt.event.ActionListener;
 
 public class MainMenu extends JFrame {
     public MainMenu() {
-        ImageIcon playIcon = new ImageIcon("images/play-regular-60.png");
-        ImageIcon exitIcon = new ImageIcon("images/exit-solid-60.png");
+        ImageIcon playIcon = new ImageIcon("images/main_menu/play-regular-60.png");
+        ImageIcon exitIcon = new ImageIcon("images/main_menu/exit-solid-60.png");
 
         JButton playButton = new JButton(playIcon);
         JButton exitButton = new JButton(exitIcon);
@@ -16,7 +16,7 @@ public class MainMenu extends JFrame {
 
         exitButton.setBorder(BorderFactory.createEmptyBorder());
         exitButton.setContentAreaFilled(false);
-        
+
         setContentPane(new BackgroundPanel()); // sets the background which contains the welcome to pentris text and the
                                                // pentominoes art.
 
@@ -89,7 +89,7 @@ public class MainMenu extends JFrame {
 
         // Constructor to load the image
         public BackgroundPanel() {
-            backgroundImage = new ImageIcon("images/background_with_pentominoes_and_font.png").getImage();
+            backgroundImage = new ImageIcon("images/main_menu/background_with_pentominoes_and_font.png").getImage();
         }
 
         // Override paintComponent
