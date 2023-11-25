@@ -16,6 +16,7 @@ public class MainMenu extends JFrame {
 
         exitButton.setBorder(BorderFactory.createEmptyBorder());
         exitButton.setContentAreaFilled(false);
+        
         setContentPane(new BackgroundPanel()); // sets the background which contains the welcome to pentris text and the
                                                // pentominoes art.
 
