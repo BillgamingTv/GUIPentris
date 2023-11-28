@@ -25,7 +25,7 @@ public class GameOverScreen extends JFrame {
             @Override
             public void actionPerformed(ActionEvent e) {
                 // Code to execute when play button is clicked
-                System.out.println("Play button clicked!");
+                System.out.println("replay button clicked!");
             }
         });
 
@@ -42,7 +42,7 @@ public class GameOverScreen extends JFrame {
         setLayout(new GridBagLayout());
         GridBagConstraints gbc = new GridBagConstraints();
 
-        // Label with text
+        //needs to be removed
         JLabel gameOverLabel = new JLabel(""); //is not being used
         gameOverLabel.setHorizontalAlignment(JLabel.CENTER); //not being used
 
@@ -53,20 +53,16 @@ public class GameOverScreen extends JFrame {
         gbc.anchor = GridBagConstraints.CENTER; // center alignment
         gbc.weightx = 1;
         gbc.weighty = 0.1; // Adjust the vertical weight as needed
+        gbc.gridwidth = 1; //reset to default
 
-        // Adding text pentris label to the gbc
-        add(gameOverLabel, gbc);
-
+        //add(gameOverLabel, gbc);
         // Resetting constraints for buttons
-        gbc.gridwidth = 1; // Reset to default
-        gbc.gridy = 1; // Move to the next row
-        gbc.weighty = 1; // Adjust for button spacing
-
+        //gbc.gridy = 1; // Move to the next row
+        //gbc.weighty = 1; // Adjust for button spacing
         //play button
-        gbc.gridx = 0; // First column
-        add(playButton, gbc);
+        //gbc.gridx = 0; // First column
 
-        // exit button
+        add(playButton, gbc);
         gbc.gridx = 1; // Second column
         add(exitButton, gbc);
 

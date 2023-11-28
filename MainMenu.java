@@ -42,33 +42,29 @@ public class MainMenu extends JFrame {
         setLayout(new GridBagLayout());
         GridBagConstraints gbc = new GridBagConstraints();
 
-        // Label with text
-        JLabel welcomeLabel = new JLabel(""); //is not being used
-        welcomeLabel.setHorizontalAlignment(JLabel.CENTER); //not being used
-
-        //constraints for the label for the icons
-        gbc.gridx = 0; // Column 0
-        gbc.gridy = 0; // Row 0
-        gbc.gridwidth = GridBagConstraints.REMAINDER; // component spans all columns
-        gbc.anchor = GridBagConstraints.CENTER; // center alignment
-        gbc.weightx = 1;
-        gbc.weighty = 0.1; // Adjust the vertical weight as needed
-
-        // Adding text pentris label to the gbc
-        add(welcomeLabel, gbc);
-
-        // Resetting constraints for buttons
-        gbc.gridwidth = 1; // Reset to default
-        gbc.gridy = 1; // Move to the next row
-        gbc.weighty = 1; // Adjust for button spacing
-
-        // play button
-        gbc.gridx = 0; // First column
-        add(playButton, gbc);
-
-        // exit button
-        gbc.gridx = 1; // Second column
-        add(exitButton, gbc);
+         //needs to be removed
+         JLabel welcomeLabel = new JLabel(""); //is not being used
+         welcomeLabel.setHorizontalAlignment(JLabel.CENTER); //not being used
+ 
+         //constraints for the label for the icons
+         gbc.gridx = 0; // Column 0
+         gbc.gridy = 0; // Row 0
+         gbc.gridwidth = GridBagConstraints.REMAINDER; // component spans all columns
+         gbc.anchor = GridBagConstraints.CENTER; // center alignment
+         gbc.weightx = 1;
+         gbc.weighty = 0.1; // Adjust the vertical weight as needed
+         gbc.gridwidth = 1; //reset to default
+ 
+         //add(gameOverLabel, gbc);
+         // Resetting constraints for buttons
+         //gbc.gridy = 1; // Move to the next row
+         //gbc.weighty = 1; // Adjust for button spacing
+         //play button
+         //gbc.gridx = 0; // First column
+ 
+         add(playButton, gbc);
+         gbc.gridx = 1; // Second column
+         add(exitButton, gbc);
 
         // Window Properties
         ImageIcon img = new ImageIcon("images/pentomino_logo.png");
@@ -87,12 +83,12 @@ public class MainMenu extends JFrame {
     class BackgroundPanel extends JPanel {
         private Image backgroundImage;
 
-        // Constructor to load the image
+        //constructor
         public BackgroundPanel() {
             backgroundImage = new ImageIcon("images/main_menu/background_with_pentominoes_and_font.png").getImage();
         }
 
-        // Override paintComponent
+        //override paintComponent
         @Override
         protected void paintComponent(Graphics g) {
             super.paintComponent(g);
