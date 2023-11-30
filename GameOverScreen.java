@@ -46,22 +46,8 @@ public class GameOverScreen extends JFrame {
         JLabel gameOverLabel = new JLabel(""); //is not being used
         gameOverLabel.setHorizontalAlignment(JLabel.CENTER); //not being used
 
-        //constraints for the label for the icons
-        gbc.gridx = 0; // Column 0
-        gbc.gridy = 0; // Row 0
-        gbc.gridwidth = GridBagConstraints.REMAINDER; // component spans all columns
-        gbc.anchor = GridBagConstraints.CENTER; // center alignment
-        gbc.weightx = 1;
-        gbc.weighty = 0.1; // Adjust the vertical weight as needed
-        gbc.gridwidth = 1; //reset to default
 
-        //add(gameOverLabel, gbc);
-        // Resetting constraints for buttons
-        //gbc.gridy = 1; // Move to the next row
-        //gbc.weighty = 1; // Adjust for button spacing
-        //play button
-        //gbc.gridx = 0; // First column
-
+        gbc.weightx = 1;//width between icons
         add(playButton, gbc);
         gbc.gridx = 1; // Second column
         add(exitButton, gbc);
