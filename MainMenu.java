@@ -7,15 +7,20 @@ public class MainMenu extends JFrame {
     public MainMenu() {
         ImageIcon playIcon = new ImageIcon("images/main_menu/play-regular-60.png");
         ImageIcon exitIcon = new ImageIcon("images/main_menu/exit-solid-60.png");
+        ImageIcon botIcon = new ImageIcon("images/main_menu/bot-solid-60.png");
 
         JButton playButton = new JButton(playIcon);
         JButton exitButton = new JButton(exitIcon);
+        JButton botButton = new JButton(botIcon);
 
         playButton.setBorder(BorderFactory.createEmptyBorder());
         playButton.setContentAreaFilled(false);
 
         exitButton.setBorder(BorderFactory.createEmptyBorder());
         exitButton.setContentAreaFilled(false);
+
+        botButton.setBorder(BorderFactory.createEmptyBorder());
+        botButton.setContentAreaFilled(false);
 
         setContentPane(new BackgroundPanel()); // sets the background which contains the welcome to pentris text and the
                                                // pentominoes art.
@@ -24,8 +29,8 @@ public class MainMenu extends JFrame {
         playButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                // Code to execute when play button is clicked
-                System.out.println("Play button clicked!");
+                // code to execute when play button is clicked
+                System.out.println("play button clicked");
             }
         });
 
@@ -33,43 +38,32 @@ public class MainMenu extends JFrame {
             @Override
             public void actionPerformed(ActionEvent e) {
                 // exits if exit button is clicked
-                System.out.println("Exit button clicked!");
+                System.out.println("exit button clicked");
                 System.exit(0);
+            }
+        });
+
+        botButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                // exits if exit button is clicked
+                System.out.println("bot button clicked");
             }
         });
 
         // Layout setup
         setLayout(new GridBagLayout());
         GridBagConstraints gbc = new GridBagConstraints();
-
-         //needs to be removed
-         JLabel welcomeLabel = new JLabel(""); //is not being used
-         welcomeLabel.setHorizontalAlignment(JLabel.CENTER); //not being used
- 
-         //constraints for the label for the icons
-         gbc.gridx = 0; // Column 0
-         gbc.gridy = 0; // Row 0
-         gbc.gridwidth = GridBagConstraints.REMAINDER; // component spans all columns
-         gbc.anchor = GridBagConstraints.CENTER; // center alignment
-         gbc.weightx = 1;
-         gbc.weighty = 0.1; // Adjust the vertical weight as needed
-         gbc.gridwidth = 1; //reset to default
- 
-         //add(gameOverLabel, gbc);
-         // Resetting constraints for buttons
-         //gbc.gridy = 1; // Move to the next row
-         //gbc.weighty = 1; // Adjust for button spacing
-         //play button
-         //gbc.gridx = 0; // First column
- 
-         add(playButton, gbc);
-         gbc.gridx = 1; // Second column
-         add(exitButton, gbc);
+         gbc.weightx = 1; //width between buttons
+         add(playButton, gbc); //first column
+         gbc.gridx = 1;
+         add(botButton, gbc); //second column
+         gbc.gridx = 2;
+         add(exitButton, gbc); //third column
 
         // Window Properties
         ImageIcon img = new ImageIcon("images/pentomino_logo.png");
         setIconImage(img.getImage());
-        welcomeLabel.setFont(new Font("Arial", Font.BOLD, 30));
         setTitle("Pentris Main Menu");
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setResizable(false);
@@ -79,13 +73,13 @@ public class MainMenu extends JFrame {
         setVisible(true);
     }
 
-    // Custom JPanel class for the pentominoes background + the text
+    //class for the pentominoes background importation
     class BackgroundPanel extends JPanel {
         private Image backgroundImage;
 
         //constructor
         public BackgroundPanel() {
-            backgroundImage = new ImageIcon("images/main_menu/background_with_pentominoes_and_font.png").getImage();
+            backgroundImage = new ImageIcon("images/main_menu/background_with_pentominoes_and_font_revision1.png").getImage();
         }
 
         //override paintComponent
@@ -95,7 +89,7 @@ public class MainMenu extends JFrame {
             // Draw the background image
             g.drawImage(backgroundImage, 0, 0, this.getWidth(), this.getHeight(), this);
         }
-    }
+    }  
 
     public static void main(String[] args) {
         // Ensuring GUI is created on Event Dispatch Thread because apparently it is
