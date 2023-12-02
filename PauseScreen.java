@@ -1,10 +1,8 @@
 import javax.swing.*;
 import java.awt.*;
-import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.awt.event.KeyAdapter;
-import java.awt.event.KeyEvent;
+
 
 public class PauseScreen extends JFrame {
     public PauseScreen() {
@@ -15,8 +13,8 @@ public class PauseScreen extends JFrame {
         exitButton.setBorder(BorderFactory.createEmptyBorder());
         exitButton.setContentAreaFilled(false);
 
-        setContentPane(new BackgroundPanel()); // sets the background which contains the welcome to pentris text and the
-                                               // pentominoes art.
+        paintBackground backgroundPanel = new paintBackground("images/pause_menu/pause_menu_background1.png");
+        this.setContentPane(backgroundPanel);
 
         exitButton.addActionListener(new ActionListener() {
             @Override
@@ -41,24 +39,6 @@ public class PauseScreen extends JFrame {
          setVisible(true);
          add(exitButton);
     }
-
-        //class for the pentominoes background importation
-        class BackgroundPanel extends JPanel {
-            private Image backgroundImage;
-    
-            //constructor
-            public BackgroundPanel() {
-                backgroundImage = new ImageIcon("images/pause_menu/pause_menu_background1.png").getImage();
-            }
-    
-            //override paintComponent
-            @Override
-            protected void paintComponent(Graphics g) {
-                super.paintComponent(g);
-                // Draw the background image
-                g.drawImage(backgroundImage, 0, 0, this.getWidth(), this.getHeight(), this);
-            }
-        }  
 
     public static void main(String[] args) {
         // Ensuring GUI is created on Event Dispatch Thread because apparently it is

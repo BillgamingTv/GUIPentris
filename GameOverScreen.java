@@ -17,8 +17,8 @@ public class GameOverScreen extends JFrame {
         exitButton.setBorder(BorderFactory.createEmptyBorder());
         exitButton.setContentAreaFilled(false);
 
-        setContentPane(new BackgroundPanel()); // sets the background which contains the welcome to pentris text and the
-                                               // pentominoes art.
+        paintBackground backgroundPanel = new paintBackground("images/game_over_screen/game_over_background.png");
+        this.setContentPane(backgroundPanel);
 
         // Adding ActionListener to buttons
         playButton.addActionListener(new ActionListener() {
@@ -63,24 +63,6 @@ public class GameOverScreen extends JFrame {
         setLocationRelativeTo(null); // Center on screen
         setSize(520, 636);
         setVisible(true);
-    }
-
-    // Custom JPanel class for the pentominoes background + the text
-    class BackgroundPanel extends JPanel {
-        private Image backgroundImage;
-
-        // Constructor to load the image
-        public BackgroundPanel() {
-            backgroundImage = new ImageIcon("images/game_over_screen/game_over_background.png").getImage();
-        }
-
-        // Override paintComponent
-        @Override
-        protected void paintComponent(Graphics g) {
-            super.paintComponent(g);
-            // Draw the background image
-            g.drawImage(backgroundImage, 0, 0, this.getWidth(), this.getHeight(), this);
-        }
     }
 
     public static void main(String[] args) {

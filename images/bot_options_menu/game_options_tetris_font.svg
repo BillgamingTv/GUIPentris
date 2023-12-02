@@ -1,0 +1,577 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   version="1.1"
+   width="100%"
+   height="100%"
+   viewBox="-1.1 -1.1 81.2 12.2"
+   id="svg70"
+   sodipodi:docname="game_options_tetris_font.svg"
+   inkscape:export-filename="game_options_tetris_font.png"
+   inkscape:export-xdpi="1182.2661"
+   inkscape:export-ydpi="1182.2661"
+   inkscape:version="1.3.1 (91b66b0783, 2023-11-16)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs70" />
+  <sodipodi:namedview
+     id="namedview70"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="16.674877"
+     inkscape:cx="40.629985"
+     inkscape:cy="6.0870015"
+     inkscape:window-width="1920"
+     inkscape:window-height="1001"
+     inkscape:window-x="-9"
+     inkscape:window-y="41"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg70" />
+  <g
+     transform="matrix(1,0,0,1,0,0)"
+     id="g7">
+    <rect
+       width="7.8"
+       height="0.5"
+       x="-0.9"
+       y="8"
+       class="base"
+       style="fill: none; stroke: none; stroke-width: 1px; stroke-linecap: butt;"
+       id="rect1" />
+    <polygon
+       points="0,0 2,0 2,1 3,1 3,2 1,2 1,1 0,1"
+       class="Z"
+       transform="matrix(6.123233995736766e-17,1,-1,6.123233995736766e-17,6,5)"
+       style="fill: rgb(226, 54, 54); stroke: rgb(232, 230, 227); stroke-width: 0.2px; stroke-linecap: butt;"
+       id="polygon1" />
+    <polygon
+       points="0,0 1,0 1,1 3,1 3,2 0,2"
+       class="J"
+       transform="matrix(1,0,0,1,1,6)"
+       style="fill: rgb(77, 132, 229); stroke: rgb(232, 230, 227); stroke-width: 0.2px; stroke-linecap: butt;"
+       id="polygon2" />
+    <polygon
+       points="4,1 4,0 0,0 0,1"
+       class="I"
+       transform="matrix(1,0,0,1,2,4)"
+       style="fill: rgb(54, 226, 226); stroke: rgb(232, 230, 227); stroke-width: 0.2px; stroke-linecap: butt;"
+       id="polygon3" />
+    <polygon
+       points="1,0 3,0 3,1 2,1 2,2 0,2 0,1 1,1"
+       class="S"
+       transform="matrix(6.123233995736766e-17,1,-1,6.123233995736766e-17,5,1)"
+       style="fill: rgb(54, 226, 54); stroke: rgb(232, 230, 227); stroke-width: 0.2px; stroke-linecap: butt;"
+       id="polygon4" />
+    <polygon
+       points="0,0 2,0 2,2 0,2"
+       class="O"
+       transform="matrix(1,0,0,1,0,4)"
+       style="fill: rgb(226, 226, 54); stroke: rgb(232, 230, 227); stroke-width: 0.2px; stroke-linecap: butt;"
+       id="polygon5" />
+    <polygon
+       points="0,1 2,1 2,0 3,0 3,2 0,2"
+       class="L"
+       transform="matrix(-1.8369701987210297e-16,-1,1,-1.8369701987210297e-16,2.220446049250313e-16,4)"
+       style="fill: rgb(226, 169, 54); stroke: rgb(232, 230, 227); stroke-width: 0.2px; stroke-linecap: butt;"
+       id="polygon6" />
+    <polygon
+       points="1,0 2,0 2,1 3,1 3,2 0,2 0,1 1,1"
+       class="T"
+       transform="matrix(-1,1.2246467991473532e-16,-1.2246467991473532e-16,-1,4,2)"
+       style="fill: rgb(169, 54, 226); stroke: rgb(232, 230, 227); stroke-width: 0.2px; stroke-linecap: butt;"
+       id="polygon7" />
+  </g>
+  <g
+     transform="matrix(1,0,0,1,7,0)"
+     id="g14">
+    <rect
+       width="7.8"
+       height="0.5"
+       x="-0.9"
+       y="8"
+       class="base"
+       style="fill: none; stroke: none; stroke-width: 1px; stroke-linecap: butt;"
+       id="rect7" />
+    <polygon
+       points="1,0 3,0 3,1 2,1 2,2 0,2 0,1 1,1"
+       class="S"
+       transform="matrix(1,0,0,1,3,6)"
+       style="fill: rgb(54, 226, 54); stroke: rgb(232, 230, 227); stroke-width: 0.2px; stroke-linecap: butt;"
+       id="polygon8" />
+    <polygon
+       points="1,0 2,0 2,1 3,1 3,2 0,2 0,1 1,1"
+       class="T"
+       transform="matrix(-1,1.2246467991473532e-16,-1.2246467991473532e-16,-1,4,8)"
+       style="fill: rgb(169, 54, 226); stroke: rgb(232, 230, 227); stroke-width: 0.2px; stroke-linecap: butt;"
+       id="polygon9" />
+    <polygon
+       points="0,0 2,0 2,1 3,1 3,2 1,2 1,1 0,1"
+       class="Z"
+       transform="matrix(6.123233995736766e-17,1,-1,6.123233995736766e-17,2,4)"
+       style="fill: rgb(226, 54, 54); stroke: rgb(232, 230, 227); stroke-width: 0.2px; stroke-linecap: butt;"
+       id="polygon10" />
+    <polygon
+       points="0,0 2,0 2,2 0,2"
+       class="O"
+       transform="matrix(1,0,0,1,0,2)"
+       style="fill: rgb(226, 226, 54); stroke: rgb(232, 230, 227); stroke-width: 0.2px; stroke-linecap: butt;"
+       id="polygon11" />
+    <polygon
+       points="0,1 2,1 2,0 3,0 3,2 0,2"
+       class="L"
+       transform="matrix(1,0,0,1,0,0)"
+       style="fill: rgb(226, 169, 54); stroke: rgb(232, 230, 227); stroke-width: 0.2px; stroke-linecap: butt;"
+       id="polygon12" />
+    <polygon
+       points="4,1 4,0 0,0 0,1"
+       class="I"
+       transform="matrix(6.123233995736766e-17,1,-1,6.123233995736766e-17,6,2)"
+       style="fill: rgb(54, 226, 226); stroke: rgb(232, 230, 227); stroke-width: 0.2px; stroke-linecap: butt;"
+       id="polygon13" />
+    <polygon
+       points="0,0 1,0 1,1 3,1 3,2 0,2"
+       class="J"
+       transform="matrix(1,0,0,1,3,0)"
+       style="fill: rgb(77, 132, 229); stroke: rgb(232, 230, 227); stroke-width: 0.2px; stroke-linecap: butt;"
+       id="polygon14" />
+  </g>
+  <g
+     transform="matrix(1,0,0,1,14,0)"
+     id="g21">
+    <rect
+       width="11.8"
+       height="0.5"
+       x="-0.9"
+       y="8"
+       class="base"
+       style="fill: none; stroke: none; stroke-width: 1px; stroke-linecap: butt;"
+       id="rect14" />
+    <polygon
+       points="0,0 2,0 2,2 0,2"
+       class="O"
+       transform="matrix(1,0,0,1,4,6)"
+       style="fill: rgb(226, 226, 54); stroke: rgb(232, 230, 227); stroke-width: 0.2px; stroke-linecap: butt;"
+       id="polygon15" />
+    <polygon
+       points="0,1 2,1 2,0 3,0 3,2 0,2"
+       class="L"
+       transform="matrix(6.123233995736766e-17,1,-1,6.123233995736766e-17,6,3)"
+       style="fill: rgb(226, 169, 54); stroke: rgb(232, 230, 227); stroke-width: 0.2px; stroke-linecap: butt;"
+       id="polygon16" />
+    <polygon
+       points="4,1 4,0 0,0 0,1"
+       class="I"
+       transform="matrix(6.123233995736766e-17,1,-1,6.123233995736766e-17,6,1)"
+       style="fill: rgb(54, 226, 226); stroke: rgb(232, 230, 227); stroke-width: 0.2px; stroke-linecap: butt;"
+       id="polygon17" />
+    <polygon
+       points="0,0 2,0 2,1 3,1 3,2 1,2 1,1 0,1"
+       class="Z"
+       transform="matrix(1,0,0,1,5,0)"
+       style="fill: rgb(226, 54, 54); stroke: rgb(232, 230, 227); stroke-width: 0.2px; stroke-linecap: butt;"
+       id="polygon18" />
+    <polygon
+       points="1,0 2,0 2,1 3,1 3,2 0,2 0,1 1,1"
+       class="T"
+       transform="matrix(-1,1.2246467991473532e-16,-1.2246467991473532e-16,-1,10,2)"
+       style="fill: rgb(169, 54, 226); stroke: rgb(232, 230, 227); stroke-width: 0.2px; stroke-linecap: butt;"
+       id="polygon19" />
+    <polygon
+       points="0,0 1,0 1,1 3,1 3,2 0,2"
+       class="J"
+       transform="matrix(-1,1.2246467991473532e-16,-1.2246467991473532e-16,-1,5,3)"
+       style="fill: rgb(77, 132, 229); stroke: rgb(232, 230, 227); stroke-width: 0.2px; stroke-linecap: butt;"
+       id="polygon20" />
+    <polygon
+       points="1,0 3,0 3,1 2,1 2,2 0,2 0,1 1,1"
+       class="S"
+       transform="matrix(1,0,0,1,0,0)"
+       style="fill: rgb(54, 226, 54); stroke: rgb(232, 230, 227); stroke-width: 0.2px; stroke-linecap: butt;"
+       id="polygon21" />
+  </g>
+  <g
+     transform="matrix(1,0,0,1,28,0)"
+     id="g28">
+    <rect
+       width="7.8"
+       height="0.5"
+       x="-0.9"
+       y="8"
+       class="base"
+       style="fill: none; stroke: none; stroke-width: 1px; stroke-linecap: butt;"
+       id="rect21" />
+    <polygon
+       points="1,0 3,0 3,1 2,1 2,2 0,2 0,1 1,1"
+       class="S"
+       transform="matrix(1,0,0,1,3,6)"
+       style="fill: rgb(54, 226, 54); stroke: rgb(232, 230, 227); stroke-width: 0.2px; stroke-linecap: butt;"
+       id="polygon22" />
+    <polygon
+       points="1,0 2,0 2,1 3,1 3,2 0,2 0,1 1,1"
+       class="T"
+       transform="matrix(-1,1.2246467991473532e-16,-1.2246467991473532e-16,-1,4,8)"
+       style="fill: rgb(169, 54, 226); stroke: rgb(232, 230, 227); stroke-width: 0.2px; stroke-linecap: butt;"
+       id="polygon23" />
+    <polygon
+       points="0,0 2,0 2,1 3,1 3,2 1,2 1,1 0,1"
+       class="Z"
+       transform="matrix(6.123233995736766e-17,1,-1,6.123233995736766e-17,2,4)"
+       style="fill: rgb(226, 54, 54); stroke: rgb(232, 230, 227); stroke-width: 0.2px; stroke-linecap: butt;"
+       id="polygon24" />
+    <polygon
+       points="0,0 2,0 2,2 0,2"
+       class="O"
+       transform="matrix(1,0,0,1,0,2)"
+       style="fill: rgb(226, 226, 54); stroke: rgb(232, 230, 227); stroke-width: 0.2px; stroke-linecap: butt;"
+       id="polygon25" />
+    <polygon
+       points="0,1 2,1 2,0 3,0 3,2 0,2"
+       class="L"
+       transform="matrix(1,0,0,1,0,0)"
+       style="fill: rgb(226, 169, 54); stroke: rgb(232, 230, 227); stroke-width: 0.2px; stroke-linecap: butt;"
+       id="polygon26" />
+    <polygon
+       points="4,1 4,0 0,0 0,1"
+       class="I"
+       transform="matrix(6.123233995736766e-17,1,-1,6.123233995736766e-17,6,2)"
+       style="fill: rgb(54, 226, 226); stroke: rgb(232, 230, 227); stroke-width: 0.2px; stroke-linecap: butt;"
+       id="polygon27" />
+    <polygon
+       points="0,0 1,0 1,1 3,1 3,2 0,2"
+       class="J"
+       transform="matrix(1,0,0,1,3,0)"
+       style="fill: rgb(77, 132, 229); stroke: rgb(232, 230, 227); stroke-width: 0.2px; stroke-linecap: butt;"
+       id="polygon28" />
+  </g>
+  <g
+     transform="matrix(1,0,0,1,35,0)"
+     id="g35">
+    <rect
+       width="7.8"
+       height="0.5"
+       x="-0.9"
+       y="8"
+       class="base"
+       style="fill: none; stroke: none; stroke-width: 1px; stroke-linecap: butt;"
+       id="rect28" />
+    <polygon
+       points="0,0 2,0 2,2 0,2"
+       class="O"
+       transform="matrix(1,0,0,1,1,6)"
+       style="fill: rgb(226, 226, 54); stroke: rgb(232, 230, 227); stroke-width: 0.2px; stroke-linecap: butt;"
+       id="polygon29" />
+    <polygon
+       points="0,1 2,1 2,0 3,0 3,2 0,2"
+       class="L"
+       transform="matrix(6.123233995736766e-17,1,-1,6.123233995736766e-17,3,3)"
+       style="fill: rgb(226, 169, 54); stroke: rgb(232, 230, 227); stroke-width: 0.2px; stroke-linecap: butt;"
+       id="polygon30" />
+    <polygon
+       points="0,0 2,0 2,1 3,1 3,2 1,2 1,1 0,1"
+       class="Z"
+       transform="matrix(6.123233995736766e-17,1,-1,6.123233995736766e-17,2,1)"
+       style="fill: rgb(226, 54, 54); stroke: rgb(232, 230, 227); stroke-width: 0.2px; stroke-linecap: butt;"
+       id="polygon31" />
+    <polygon
+       points="0,0 1,0 1,1 3,1 3,2 0,2"
+       class="J"
+       transform="matrix(1,0,0,1,2,3)"
+       style="fill: rgb(77, 132, 229); stroke: rgb(232, 230, 227); stroke-width: 0.2px; stroke-linecap: butt;"
+       id="polygon32" />
+    <polygon
+       points="1,0 2,0 2,1 3,1 3,2 0,2 0,1 1,1"
+       class="T"
+       transform="matrix(1,0,0,1,3,2)"
+       style="fill: rgb(169, 54, 226); stroke: rgb(232, 230, 227); stroke-width: 0.2px; stroke-linecap: butt;"
+       id="polygon33" />
+    <polygon
+       points="1,0 3,0 3,1 2,1 2,2 0,2 0,1 1,1"
+       class="S"
+       transform="matrix(6.123233995736766e-17,1,-1,6.123233995736766e-17,6,0)"
+       style="fill: rgb(54, 226, 54); stroke: rgb(232, 230, 227); stroke-width: 0.2px; stroke-linecap: butt;"
+       id="polygon34" />
+    <polygon
+       points="4,1 4,0 0,0 0,1"
+       class="I"
+       transform="matrix(1,0,0,1,0,0)"
+       style="fill: rgb(54, 226, 226); stroke: rgb(232, 230, 227); stroke-width: 0.2px; stroke-linecap: butt;"
+       id="polygon35" />
+  </g>
+  <g
+     transform="matrix(1,0,0,1,42,0)"
+     id="g42">
+    <rect
+       width="11.8"
+       height="0.5"
+       x="-0.9"
+       y="8"
+       class="base"
+       style="fill: none; stroke: none; stroke-width: 1px; stroke-linecap: butt;"
+       id="rect35" />
+    <polygon
+       points="0,0 2,0 2,2 0,2"
+       class="O"
+       transform="matrix(1,0,0,1,4,6)"
+       style="fill: rgb(226, 226, 54); stroke: rgb(232, 230, 227); stroke-width: 0.2px; stroke-linecap: butt;"
+       id="polygon36" />
+    <polygon
+       points="0,1 2,1 2,0 3,0 3,2 0,2"
+       class="L"
+       transform="matrix(6.123233995736766e-17,1,-1,6.123233995736766e-17,6,3)"
+       style="fill: rgb(226, 169, 54); stroke: rgb(232, 230, 227); stroke-width: 0.2px; stroke-linecap: butt;"
+       id="polygon37" />
+    <polygon
+       points="4,1 4,0 0,0 0,1"
+       class="I"
+       transform="matrix(6.123233995736766e-17,1,-1,6.123233995736766e-17,6,1)"
+       style="fill: rgb(54, 226, 226); stroke: rgb(232, 230, 227); stroke-width: 0.2px; stroke-linecap: butt;"
+       id="polygon38" />
+    <polygon
+       points="0,0 2,0 2,1 3,1 3,2 1,2 1,1 0,1"
+       class="Z"
+       transform="matrix(1,0,0,1,5,0)"
+       style="fill: rgb(226, 54, 54); stroke: rgb(232, 230, 227); stroke-width: 0.2px; stroke-linecap: butt;"
+       id="polygon39" />
+    <polygon
+       points="1,0 2,0 2,1 3,1 3,2 0,2 0,1 1,1"
+       class="T"
+       transform="matrix(-1,1.2246467991473532e-16,-1.2246467991473532e-16,-1,10,2)"
+       style="fill: rgb(169, 54, 226); stroke: rgb(232, 230, 227); stroke-width: 0.2px; stroke-linecap: butt;"
+       id="polygon40" />
+    <polygon
+       points="0,0 1,0 1,1 3,1 3,2 0,2"
+       class="J"
+       transform="matrix(-1,1.2246467991473532e-16,-1.2246467991473532e-16,-1,5,3)"
+       style="fill: rgb(77, 132, 229); stroke: rgb(232, 230, 227); stroke-width: 0.2px; stroke-linecap: butt;"
+       id="polygon41" />
+    <polygon
+       points="1,0 3,0 3,1 2,1 2,2 0,2 0,1 1,1"
+       class="S"
+       transform="matrix(1,0,0,1,0,0)"
+       style="fill: rgb(54, 226, 54); stroke: rgb(232, 230, 227); stroke-width: 0.2px; stroke-linecap: butt;"
+       id="polygon42" />
+  </g>
+  <g
+     transform="matrix(1,0,0,1,53,0)"
+     id="g49">
+    <rect
+       width="7.8"
+       height="0.5"
+       x="-0.9"
+       y="8"
+       class="base"
+       style="fill: none; stroke: none; stroke-width: 1px; stroke-linecap: butt;"
+       id="rect42" />
+    <polygon
+       points="1,0 2,0 2,1 3,1 3,2 0,2 0,1 1,1"
+       class="T"
+       transform="matrix(1,0,0,1,0,6)"
+       style="fill: rgb(169, 54, 226); stroke: rgb(232, 230, 227); stroke-width: 0.2px; stroke-linecap: butt;"
+       id="polygon43" />
+    <polygon
+       points="0,0 2,0 2,1 3,1 3,2 1,2 1,1 0,1"
+       class="Z"
+       transform="matrix(1,0,0,1,2,6)"
+       style="fill: rgb(226, 54, 54); stroke: rgb(232, 230, 227); stroke-width: 0.2px; stroke-linecap: butt;"
+       id="polygon44" />
+    <polygon
+       points="0,1 2,1 2,0 3,0 3,2 0,2"
+       class="L"
+       transform="matrix(6.123233995736766e-17,1,-1,6.123233995736766e-17,4,3)"
+       style="fill: rgb(226, 169, 54); stroke: rgb(232, 230, 227); stroke-width: 0.2px; stroke-linecap: butt;"
+       id="polygon45" />
+    <polygon
+       points="0,0 1,0 1,1 3,1 3,2 0,2"
+       class="J"
+       transform="matrix(6.123233995736766e-17,1,-1,6.123233995736766e-17,5,2)"
+       style="fill: rgb(77, 132, 229); stroke: rgb(232, 230, 227); stroke-width: 0.2px; stroke-linecap: butt;"
+       id="polygon46" />
+    <polygon
+       points="1,0 3,0 3,1 2,1 2,2 0,2 0,1 1,1"
+       class="S"
+       transform="matrix(1,0,0,1,3,0)"
+       style="fill: rgb(54, 226, 54); stroke: rgb(232, 230, 227); stroke-width: 0.2px; stroke-linecap: butt;"
+       id="polygon47" />
+    <polygon
+       points="0,0 2,0 2,2 0,2"
+       class="O"
+       transform="matrix(1,0,0,1,1,1)"
+       style="fill: rgb(226, 226, 54); stroke: rgb(232, 230, 227); stroke-width: 0.2px; stroke-linecap: butt;"
+       id="polygon48" />
+    <polygon
+       points="4,1 4,0 0,0 0,1"
+       class="I"
+       transform="matrix(1,0,0,1,0,0)"
+       style="fill: rgb(54, 226, 226); stroke: rgb(232, 230, 227); stroke-width: 0.2px; stroke-linecap: butt;"
+       id="polygon49" />
+  </g>
+  <g
+     transform="matrix(1,0,0,1,60,0)"
+     id="g56">
+    <rect
+       width="7.8"
+       height="0.5"
+       x="-0.9"
+       y="8"
+       class="base"
+       style="fill: none; stroke: none; stroke-width: 1px; stroke-linecap: butt;"
+       id="rect49" />
+    <polygon
+       points="1,0 3,0 3,1 2,1 2,2 0,2 0,1 1,1"
+       class="S"
+       transform="matrix(1,0,0,1,3,6)"
+       style="fill: rgb(54, 226, 54); stroke: rgb(232, 230, 227); stroke-width: 0.2px; stroke-linecap: butt;"
+       id="polygon50" />
+    <polygon
+       points="1,0 2,0 2,1 3,1 3,2 0,2 0,1 1,1"
+       class="T"
+       transform="matrix(-1,1.2246467991473532e-16,-1.2246467991473532e-16,-1,4,8)"
+       style="fill: rgb(169, 54, 226); stroke: rgb(232, 230, 227); stroke-width: 0.2px; stroke-linecap: butt;"
+       id="polygon51" />
+    <polygon
+       points="0,0 2,0 2,1 3,1 3,2 1,2 1,1 0,1"
+       class="Z"
+       transform="matrix(6.123233995736766e-17,1,-1,6.123233995736766e-17,2,4)"
+       style="fill: rgb(226, 54, 54); stroke: rgb(232, 230, 227); stroke-width: 0.2px; stroke-linecap: butt;"
+       id="polygon52" />
+    <polygon
+       points="0,0 2,0 2,2 0,2"
+       class="O"
+       transform="matrix(1,0,0,1,0,2)"
+       style="fill: rgb(226, 226, 54); stroke: rgb(232, 230, 227); stroke-width: 0.2px; stroke-linecap: butt;"
+       id="polygon53" />
+    <polygon
+       points="0,1 2,1 2,0 3,0 3,2 0,2"
+       class="L"
+       transform="matrix(1,0,0,1,0,0)"
+       style="fill: rgb(226, 169, 54); stroke: rgb(232, 230, 227); stroke-width: 0.2px; stroke-linecap: butt;"
+       id="polygon54" />
+    <polygon
+       points="4,1 4,0 0,0 0,1"
+       class="I"
+       transform="matrix(6.123233995736766e-17,1,-1,6.123233995736766e-17,6,2)"
+       style="fill: rgb(54, 226, 226); stroke: rgb(232, 230, 227); stroke-width: 0.2px; stroke-linecap: butt;"
+       id="polygon55" />
+    <polygon
+       points="0,0 1,0 1,1 3,1 3,2 0,2"
+       class="J"
+       transform="matrix(1,0,0,1,3,0)"
+       style="fill: rgb(77, 132, 229); stroke: rgb(232, 230, 227); stroke-width: 0.2px; stroke-linecap: butt;"
+       id="polygon56" />
+  </g>
+  <g
+     transform="matrix(1,0,0,1,67,0)"
+     id="g63">
+    <rect
+       width="7.8"
+       height="0.5"
+       x="-0.9"
+       y="8"
+       class="base"
+       style="fill: none; stroke: none; stroke-width: 1px; stroke-linecap: butt;"
+       id="rect56" />
+    <polygon
+       points="0,1 2,1 2,0 3,0 3,2 0,2"
+       class="L"
+       transform="matrix(-1.8369701987210297e-16,-1,1,-1.8369701987210297e-16,4,8)"
+       style="fill: rgb(226, 169, 54); stroke: rgb(232, 230, 227); stroke-width: 0.2px; stroke-linecap: butt;"
+       id="polygon57" />
+    <polygon
+       points="0,0 2,0 2,1 3,1 3,2 1,2 1,1 0,1"
+       class="Z"
+       transform="matrix(6.123233995736766e-17,1,-1,6.123233995736766e-17,5,3)"
+       style="fill: rgb(226, 54, 54); stroke: rgb(232, 230, 227); stroke-width: 0.2px; stroke-linecap: butt;"
+       id="polygon58" />
+    <polygon
+       points="0,0 1,0 1,1 3,1 3,2 0,2"
+       class="J"
+       transform="matrix(-1.8369701987210297e-16,-1,1,-1.8369701987210297e-16,2.220446049250313e-16,8)"
+       style="fill: rgb(77, 132, 229); stroke: rgb(232, 230, 227); stroke-width: 0.2px; stroke-linecap: butt;"
+       id="polygon59" />
+    <polygon
+       points="1,0 3,0 3,1 2,1 2,2 0,2 0,1 1,1"
+       class="S"
+       transform="matrix(6.123233995736766e-17,1,-1,6.123233995736766e-17,2,2)"
+       style="fill: rgb(54, 226, 54); stroke: rgb(232, 230, 227); stroke-width: 0.2px; stroke-linecap: butt;"
+       id="polygon60" />
+    <polygon
+       points="1,0 2,0 2,1 3,1 3,2 0,2 0,1 1,1"
+       class="T"
+       transform="matrix(-1.8369701987210297e-16,-1,1,-1.8369701987210297e-16,2.220446049250313e-16,3)"
+       style="fill: rgb(169, 54, 226); stroke: rgb(232, 230, 227); stroke-width: 0.2px; stroke-linecap: butt;"
+       id="polygon61" />
+    <polygon
+       points="0,0 2,0 2,2 0,2"
+       class="O"
+       transform="matrix(1,0,0,1,2,2)"
+       style="fill: rgb(226, 226, 54); stroke: rgb(232, 230, 227); stroke-width: 0.2px; stroke-linecap: butt;"
+       id="polygon62" />
+    <polygon
+       points="4,1 4,0 0,0 0,1"
+       class="I"
+       transform="matrix(6.123233995736766e-17,1,-1,6.123233995736766e-17,6,1)"
+       style="fill: rgb(54, 226, 226); stroke: rgb(232, 230, 227); stroke-width: 0.2px; stroke-linecap: butt;"
+       id="polygon63" />
+  </g>
+  <g
+     transform="matrix(1,0,0,1,74,0)"
+     id="g70">
+    <rect
+       width="6.8"
+       height="0.5"
+       x="-0.9"
+       y="8"
+       class="base"
+       style="fill: none; stroke: none; stroke-width: 1px; stroke-linecap: butt;"
+       id="rect63" />
+    <polygon
+       points="0,1 2,1 2,0 3,0 3,2 0,2"
+       class="L"
+       transform="matrix(1,0,0,1,2,6)"
+       style="fill: rgb(226, 169, 54); stroke: rgb(232, 230, 227); stroke-width: 0.2px; stroke-linecap: butt;"
+       id="polygon64" />
+    <polygon
+       points="0,0 2,0 2,1 3,1 3,2 1,2 1,1 0,1"
+       class="Z"
+       transform="matrix(6.123233995736766e-17,1,-1,6.123233995736766e-17,5,4)"
+       style="fill: rgb(226, 54, 54); stroke: rgb(232, 230, 227); stroke-width: 0.2px; stroke-linecap: butt;"
+       id="polygon65" />
+    <polygon
+       points="1,0 2,0 2,1 3,1 3,2 0,2 0,1 1,1"
+       class="T"
+       transform="matrix(-1,1.2246467991473532e-16,-1.2246467991473532e-16,-1,3,8)"
+       style="fill: rgb(169, 54, 226); stroke: rgb(232, 230, 227); stroke-width: 0.2px; stroke-linecap: butt;"
+       id="polygon66" />
+    <polygon
+       points="1,0 3,0 3,1 2,1 2,2 0,2 0,1 1,1"
+       class="S"
+       transform="matrix(1,0,0,1,2,3)"
+       style="fill: rgb(54, 226, 54); stroke: rgb(232, 230, 227); stroke-width: 0.2px; stroke-linecap: butt;"
+       id="polygon67" />
+    <polygon
+       points="0,0 1,0 1,1 3,1 3,2 0,2"
+       class="J"
+       transform="matrix(-1.8369701987210297e-16,-1,1,-1.8369701987210297e-16,1.0000000000000002,4)"
+       style="fill: rgb(77, 132, 229); stroke: rgb(232, 230, 227); stroke-width: 0.2px; stroke-linecap: butt;"
+       id="polygon68" />
+    <polygon
+       points="0,0 2,0 2,2 0,2"
+       class="O"
+       transform="matrix(1,0,0,1,0,1)"
+       style="fill: rgb(226, 226, 54); stroke: rgb(232, 230, 227); stroke-width: 0.2px; stroke-linecap: butt;"
+       id="polygon69" />
+    <polygon
+       points="4,1 4,0 0,0 0,1"
+       class="I"
+       transform="matrix(1,0,0,1,1,0)"
+       style="fill: rgb(54, 226, 226); stroke: rgb(232, 230, 227); stroke-width: 0.2px; stroke-linecap: butt;"
+       id="polygon70" />
+  </g>
+</svg>

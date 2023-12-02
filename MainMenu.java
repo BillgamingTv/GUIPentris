@@ -22,8 +22,8 @@ public class MainMenu extends JFrame {
         botButton.setBorder(BorderFactory.createEmptyBorder());
         botButton.setContentAreaFilled(false);
 
-        setContentPane(new BackgroundPanel()); // sets the background which contains the welcome to pentris text and the
-                                               // pentominoes art.
+        paintBackground backgroundPanel = new paintBackground("images/main_menu/background_with_pentominoes_and_font_revision3.png");
+        this.setContentPane(backgroundPanel);
 
         // Adding ActionListener to buttons
         playButton.addActionListener(new ActionListener() {
@@ -74,23 +74,11 @@ public class MainMenu extends JFrame {
         setVisible(true);
     }
 
-    // class for the pentominoes background importation
-    class BackgroundPanel extends JPanel {
-        private Image backgroundImage;
+    // public void setBackGround(String backgroundPath) {
+    //     paintBackground paintBackground = new paintBackground();
+    //     paintBackground.BackgroundPanel(backgroundPath);
+    // }
 
-        // constructor
-        public BackgroundPanel() {
-            backgroundImage = new ImageIcon("images/main_menu/background_with_pentominoes_and_font_revision3.png")
-                    .getImage();
-        }
-
-        //override paintComponent
-        @Override
-        protected void paintComponent(Graphics g) {
-            super.paintComponent(g);
-            g.drawImage(backgroundImage, 0, 0, this.getWidth(), this.getHeight(), this);
-        }
-    }
 
     private void openBotOptionsScreen() {
         Point location = this.getLocation();
@@ -102,16 +90,5 @@ public class MainMenu extends JFrame {
         botOptionsScreen.setSize(520,636);
         botOptionsScreen.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         botOptionsScreen.setResizable(false);
-    }
-
-    public static void main(String[] args) {
-        // Ensuring GUI is created on Event Dispatch Thread because apparently it is
-        // better
-        SwingUtilities.invokeLater(new Runnable() {
-            @Override
-            public void run() {
-                new MainMenu();
-            }
-        });
     }
 }
