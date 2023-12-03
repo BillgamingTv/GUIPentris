@@ -17,4 +17,3 @@ class paintBackground extends JPanel {
         g.drawImage(backgroundImage, 0, 0, this.getWidth(), this.getHeight(), this);
     }
 }
-

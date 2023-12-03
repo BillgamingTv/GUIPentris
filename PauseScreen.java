@@ -3,7 +3,6 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-
 public class PauseScreen extends JFrame {
     public PauseScreen() {
         ImageIcon exitIcon = new ImageIcon("images/pause_menu/exit-solid-60.png");
@@ -26,18 +25,18 @@ public class PauseScreen extends JFrame {
         });
         setLayout(new GridBagLayout());
         GridBagConstraints gbc = new GridBagConstraints();
-         gbc.weightx = 1; //width between buttons
-         add(exitButton, gbc); //first column
-         ImageIcon img = new ImageIcon("images/pentomino_logo.png");
-         setIconImage(img.getImage());
-         setTitle("Paused");
-         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-         setResizable(false);
-         pack();
-         setLocationRelativeTo(null); // Center on screen
-         setSize(520, 636);
-         setVisible(true);
-         add(exitButton);
+        gbc.weightx = 1; // width between buttons
+        add(exitButton, gbc); // first column
+        ImageIcon img = new ImageIcon("images/pentomino_logo.png");
+        setIconImage(img.getImage());
+        setTitle("Paused");
+        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        setResizable(false);
+        pack();
+        setLocationRelativeTo(null); // Center on screen
+        setSize(520, 636);
+        setVisible(true);
+        add(exitButton);
     }
 
     public static void main(String[] args) {

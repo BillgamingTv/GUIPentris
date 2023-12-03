@@ -22,7 +22,8 @@ public class MainMenu extends JFrame {
         botButton.setBorder(BorderFactory.createEmptyBorder());
         botButton.setContentAreaFilled(false);
 
-        paintBackground backgroundPanel = new paintBackground("images/main_menu/background_with_pentominoes_and_font_revision3.png");
+        paintBackground backgroundPanel = new paintBackground(
+                "images/main_menu/background_with_pentominoes_and_font_revision3.png");
         this.setContentPane(backgroundPanel);
 
         // Adding ActionListener to buttons
@@ -75,20 +76,19 @@ public class MainMenu extends JFrame {
     }
 
     // public void setBackGround(String backgroundPath) {
-    //     paintBackground paintBackground = new paintBackground();
-    //     paintBackground.BackgroundPanel(backgroundPath);
+    // paintBackground paintBackground = new paintBackground();
+    // paintBackground.BackgroundPanel(backgroundPath);
     // }
-
 
     private void openBotOptionsScreen() {
         Point location = this.getLocation();
-        this.dispose();
         botOptionsScreen botOptionsScreen = new botOptionsScreen();
         ImageIcon img = new ImageIcon("images/pentomino_logo.png");
         botOptionsScreen.setIconImage(img.getImage());
         botOptionsScreen.setLocation(location);
-        botOptionsScreen.setSize(520,636);
+        botOptionsScreen.setSize(520, 636);
         botOptionsScreen.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         botOptionsScreen.setResizable(false);
+        this.dispose();
     }
 }
