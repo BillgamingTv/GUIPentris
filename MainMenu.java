@@ -8,10 +8,15 @@ public class MainMenu extends JFrame {
         ImageIcon playIcon = new ImageIcon("images/main_menu/play-regular-60.png");
         ImageIcon exitIcon = new ImageIcon("images/main_menu/exit-solid-60.png");
         ImageIcon botIcon = new ImageIcon("images/main_menu/bot-solid-60.png");
+        ImageIcon helpIcon = new ImageIcon("images/help_menu/help-circle-solid-60.png");
 
         JButton playButton = new JButton(playIcon);
         JButton exitButton = new JButton(exitIcon);
         JButton botButton = new JButton(botIcon);
+        JButton helpButton = new JButton(helpIcon);
+
+
+        // removing blue frame of buttons
 
         playButton.setBorder(BorderFactory.createEmptyBorder());
         playButton.setContentAreaFilled(false);
@@ -21,6 +26,9 @@ public class MainMenu extends JFrame {
 
         botButton.setBorder(BorderFactory.createEmptyBorder());
         botButton.setContentAreaFilled(false);
+
+        helpButton.setBorder(BorderFactory.createEmptyBorder());
+        helpButton.setContentAreaFilled(false);
 
         paintBackground backgroundPanel = new paintBackground(
                 "images/main_menu/background_with_pentominoes_and_font_revision3.png");
@@ -53,6 +61,15 @@ public class MainMenu extends JFrame {
             }
         });
 
+        helpButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                System.out.println("opening help menu");
+                openHelpMenu();
+
+            }
+        });
+
         // Layout setup
         setLayout(new GridBagLayout());
         GridBagConstraints gbc = new GridBagConstraints();
@@ -62,6 +79,14 @@ public class MainMenu extends JFrame {
         add(botButton, gbc); // second column
         gbc.gridx = 2;
         add(exitButton, gbc); // third column
+        // GridBag constraints for the new icon
+        gbc.gridx = 1; // second column (the center)
+        gbc.gridy = 2; // second row
+        gbc.gridwidth = 1; // width
+        gbc.anchor = GridBagConstraints.CENTER; // centering icon
+        gbc.insets = new Insets(25, 0, 0, 0); // a way of leaving space between rows
+        add(helpButton, gbc);
+
 
         // Window Properties
         ImageIcon img = new ImageIcon("images/pentomino_logo.png");
@@ -80,6 +105,7 @@ public class MainMenu extends JFrame {
     // paintBackground.BackgroundPanel(backgroundPath);
     // }
 
+    // could probaly use 1 method here to open all panels
     private void openBotOptionsScreen() {
         Point location = this.getLocation();
         botOptionsScreen botOptionsScreen = new botOptionsScreen();
@@ -89,6 +115,18 @@ public class MainMenu extends JFrame {
         botOptionsScreen.setSize(520, 636);
         botOptionsScreen.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         botOptionsScreen.setResizable(false);
+        this.dispose();
+    }
+
+    private void openHelpMenu() {
+        Point location = this.getLocation();
+        helpMenu helpMenu = new helpMenu();
+        ImageIcon img = new ImageIcon("images/pentomino_logo.png");
+        helpMenu.setIconImage(img.getImage());
+        helpMenu.setLocation(location);
+        helpMenu.setSize(520,636);
+        helpMenu.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        helpMenu.setResizable(false);
         this.dispose();
     }
 }

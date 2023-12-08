@@ -22,8 +22,6 @@ public class GameOverScreen extends JFrame {
         backArrowButton.setBorder(BorderFactory.createEmptyBorder());
         backArrowButton.setContentAreaFilled(false);
 
-        JLabel emptyLabel = new JLabel("");
-
         paintBackground backgroundPanel = new paintBackground("images/game_over_screen/game_over_background.png");
         this.setContentPane(backgroundPanel);
 
@@ -58,24 +56,11 @@ public class GameOverScreen extends JFrame {
         setLayout(new GridBagLayout());
         GridBagConstraints gbc = new GridBagConstraints();
 
-        // needs to be removed
-        JLabel gameOverLabel = new JLabel(""); // is not being used
-        gameOverLabel.setHorizontalAlignment(JLabel.CENTER); // not being used
 
         gbc.weightx = 1;// width between icons
         add(playButton, gbc);
         gbc.gridx = 1; // Second column
         add(exitButton, gbc);
-
-        // Spacer
-        gbc.gridx = 0;
-        gbc.gridy = 2;
-        gbc.gridwidth = 3;
-        gbc.fill = GridBagConstraints.HORIZONTAL;
-        gbc.ipady = 20; // increase the internal padding
-        add(emptyLabel, gbc);
-        gbc.ipady = 0; // reset ipady
-
 
 
         // Back Button
@@ -84,13 +69,14 @@ public class GameOverScreen extends JFrame {
         gbc.gridwidth = 3; // span across all columns
         gbc.fill = GridBagConstraints.NONE; // do not stretch horizontally
         gbc.anchor = GridBagConstraints.CENTER; // center alignment
+        gbc.insets = new Insets(25, 0, 0, 0);
 
         add(backArrowButton, gbc);
 
         // Window Properties
         ImageIcon img = new ImageIcon("images/pentomino_logo.png");
         setIconImage(img.getImage());
-        gameOverLabel.setFont(new Font("Arial", Font.BOLD, 30));
+        //gameOverLabel.setFont(new Font("Arial", Font.BOLD, 30));
         setTitle("Game Over");
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setResizable(false);
