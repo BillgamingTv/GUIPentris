@@ -1,63 +1,70 @@
 import javax.swing.*;
+import javax.swing.border.Border;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 public class helpMenu extends JFrame {
-    public helpMenu() {
 
+    public helpMenu() {
+        // a check I found in case the testing enviroment does not support transparency
+        // (just in case)
+        if (!GraphicsEnvironment.getLocalGraphicsEnvironment().getDefaultScreenDevice()
+                .isWindowTranslucencySupported(GraphicsDevice.WindowTranslucency.TRANSLUCENT)) {
+            System.err.println("Transparency not supported in this environment");
+            return;
+        }
+        // frame setup
+        setUndecorated(true);
+        setSize(300, 400);
+        setLayout(new BorderLayout());
+        setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+        setResizable(false);
+        getContentPane().setBackground(Color.DARK_GRAY);
+        setOpacity(0.9f); // transparency
+
+        // labels
+        JLabel titleLabel = new JLabel("<html><div style='text-align: center;'>" +
+                "<br/>" +
+                "Keybinds");
+        JLabel textLabel = new JLabel("<html><div style='text-align: center;'>" +
+                "P - Pause<br/>" +
+                "O - Resume<br/>" +
+                "R - Rotate<br/>" +
+                "Space - Drop<br/>" +
+                "A - Move Left<br/>" +
+                "D - Move Right<br/>" +
+                "S - Move Down Faster</div></html>");
+        // label setup
+        titleLabel.setOpaque(false);
+        titleLabel.setHorizontalAlignment(JLabel.CENTER);
+        titleLabel.setFont(new Font("Arial", Font.BOLD, 35));
+        textLabel.setOpaque(false);
+        textLabel.setHorizontalAlignment(JLabel.CENTER);
+        textLabel.setFont(new Font("Arial", Font.BOLD, 25));
+
+        getContentPane().setBackground(Color.LIGHT_GRAY);
+
+        add(titleLabel, BorderLayout.NORTH);
+        add(textLabel, BorderLayout.CENTER);
+
+        // add close button
         ImageIcon backArrowIcon = new ImageIcon("images/bot_options_menu/left-arrow-circle-solid-60.png");
         JButton backArrowButton = new JButton(backArrowIcon);
-
         backArrowButton.setBorder(BorderFactory.createEmptyBorder());
         backArrowButton.setContentAreaFilled(false);
-
-        String helpText = "<html><center>p - Pause<br>o - Resume<br>r - Rotate<br>Space - Drop Piece<br>a - Move Piece Left<br>d - Move Piece Right<br>s - Move Piece Down Faster</center></html>";
-        JLabel helpLabel = new JLabel(helpText);
-        helpLabel.setFont(new Font("Arial", Font.BOLD, 20));
-        // background
-        paintBackground backgroundPanel = new paintBackground(
-                "images/help_menu/help_menu_background.png");
-
         backArrowButton.addActionListener(new ActionListener() {
-            @Override
             public void actionPerformed(ActionEvent e) {
-                System.out.println("going back to main menu");
-                openMainMenu();
-
+                System.out.println("closing info menu");
+                dispose();
             }
         });
-        // layout and window setup
-        setLayout(new GridBagLayout());
-        GridBagConstraints gbc = new GridBagConstraints();
-
-
-        gbc.weightx = 1;// width between icons
-        add(helpLabel, gbc);
-        // Back Button
-        gbc.gridx = 0; // start from the first column
-        gbc.gridy = 4;
-        gbc.gridwidth = 3; // span across all columns
-        gbc.fill = GridBagConstraints.NONE; // do not stretch horizontally
-        gbc.anchor = GridBagConstraints.CENTER; // center alignment
-        gbc.insets = new Insets(25, 0, 0, 0);
-
-        add(backArrowButton, gbc);
-        this.setContentPane(backgroundPanel);
-        this.setTitle("Help Menu");
-        this.setLayout(new BorderLayout());
-        this.add(helpLabel);
-        this.add(backArrowButton);
-
-        this.pack();
-        this.setVisible(true);
-
-    }
-
-    private void openMainMenu() {
-        Point location = this.getLocation();
-        MainMenu MainMenu = new MainMenu();
-        MainMenu.setLocation(location);
-        this.dispose();
+        // using a JPanel to add space to between the border and the button
+        JPanel buttonPanel = new JPanel();
+        buttonPanel.setLayout(new BorderLayout());
+        buttonPanel.add(backArrowButton, BorderLayout.CENTER);
+        buttonPanel.setOpaque(false);
+        buttonPanel.setBorder(BorderFactory.createEmptyBorder(10, 0, 10, 0)); // Top, left, bottom, right padding
+        add(buttonPanel, BorderLayout.SOUTH);
     }
 }

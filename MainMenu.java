@@ -8,13 +8,12 @@ public class MainMenu extends JFrame {
         ImageIcon playIcon = new ImageIcon("images/main_menu/play-regular-60.png");
         ImageIcon exitIcon = new ImageIcon("images/main_menu/exit-solid-60.png");
         ImageIcon botIcon = new ImageIcon("images/main_menu/bot-solid-60.png");
-        ImageIcon helpIcon = new ImageIcon("images/help_menu/help-circle-solid-60.png");
+        ImageIcon helpIcon = new ImageIcon("images/help_menu/info-circle-solid-60.png");
 
         JButton playButton = new JButton(playIcon);
         JButton exitButton = new JButton(exitIcon);
         JButton botButton = new JButton(botIcon);
         JButton helpButton = new JButton(helpIcon);
-
 
         // removing blue frame of buttons
 
@@ -64,7 +63,7 @@ public class MainMenu extends JFrame {
         helpButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                System.out.println("opening help menu");
+                System.out.println("opening info menu");
                 openHelpMenu();
 
             }
@@ -86,7 +85,6 @@ public class MainMenu extends JFrame {
         gbc.anchor = GridBagConstraints.CENTER; // centering icon
         gbc.insets = new Insets(25, 0, 0, 0); // a way of leaving space between rows
         add(helpButton, gbc);
-
 
         // Window Properties
         ImageIcon img = new ImageIcon("images/pentomino_logo.png");
@@ -119,14 +117,13 @@ public class MainMenu extends JFrame {
     }
 
     private void openHelpMenu() {
-        Point location = this.getLocation();
-        helpMenu helpMenu = new helpMenu();
-        ImageIcon img = new ImageIcon("images/pentomino_logo.png");
-        helpMenu.setIconImage(img.getImage());
-        helpMenu.setLocation(location);
-        helpMenu.setSize(520,636);
-        helpMenu.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        helpMenu.setResizable(false);
-        this.dispose();
+        helpMenu help = new helpMenu();
+        //centering window
+        Point mainWindowLocation = this.getLocation();
+        Dimension mainWindowSize = this.getSize();
+        int x = mainWindowLocation.x + (mainWindowSize.width - help.getWidth()) / 2;
+        int y = mainWindowLocation.y + (mainWindowSize.height - help.getHeight()) / 2;
+        help.setLocation(x, y);
+        help.setVisible(true);
     }
 }
